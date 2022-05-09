@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url(..//font/rajdhani/Rajdhani-Medium.ttf) format('OpenType');
+}
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(..//font/space-grotesk-cufonfonts/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Regular.otf) format('OpenType');
+}
+
+/* HEAD */
+.logohome1 {
+    margin-left: 10%; 
+    width: 20%;
+    padding-bottom: 4%;
+    padding-top: 8%;
+}
+.menu {
+    font-family: 'Rajdhani';
+    display:flex; 
+    justify-content: center; 
+    align-items: baseline; 
+    color: #FFFFFF; 
+    font-size: 1.5rem; 
+    text-decoration: none;
+    padding-top: 3%;
+}
+.text1 {
+    font-family: 'Space Grotesk';
+    color: #FFFFFF; 
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20%;
+}
+#btn {
+    background-color: #c4c4c45b;
+    /*background-image: linear-gradient(to right, white 35%,red 65%);*/
+    color: #FFFFFF;
+    border-radius: 0%;
+    border-style: none;
+    padding: 1%; 
+    width: 17%;
+    height: 10%;
+    font-family: 'Rajdhani';
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.logos {
+    padding-left: 86%;
+    margin-top: -20%;
+    display: grid;
+}
+.logobatfleche {
+    padding-top: 10%;
+    width: 5%;
+    text-align: center;
+    padding-top: 15%;
+}
+
+/* PART 1 */
+.title1 {
+    font-size: 1.5rem;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.textintro {
+    font-size: 1rem;
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-left: 15%;
+    text-align: justify;
+    padding-bottom: 5%;
+}
+
+/* PART 2 */
+.title2 {
+    font-size: 1.5rem;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.phot1 {
+    display: block;
+}
+
+/* PART 3 */
+.title3 {
+    font-size: 1.5rem;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 15%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.figcaption {
+    background-color: #5852528f;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    border-left: none;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    margin-top: -22.5%;
+    margin-left: 40%;
+    padding-left: 1%;
+    width: 33%;
+}
+
+/* PART 4 */
+
+/* PART 5 */
+.formularbox {
+    background-color: transparent;
+}
+.title4 {
+    font-size: 1.5rem;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5%;
+}
+.title5 {
+    font-size: 1.25rem;
+    font-family: 'Rajdhani';
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-top: 3%;
+    margin-left: 24%;
+}
+.form {
+    background-color: transparent;
+    border-bottom: #FFFFFF;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 1%;
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 24%;
+    padding: 0.5%;
+}
+.formselect {
+    background-color: transparent;
+    border-bottom: #FFFFFF;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 1%;
+    width: 50%;
+    color: #FFFFFF;
+    margin-left: 24%;
+}
+.choice {
+    background-color: rgb(97, 94, 94);
+}
+#btn1 {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-style: ridge;
+    border-color: #FFFFFF; 
+    width: 10%;
+    font-family: 'Rajdhani';
+    font-weight: normal;
+    font-size: 0.75rem;
+    margin-left: 3%;
+    margin-top: 2%;
+    padding: 1%;
+}
+.popUp {
+    background-image: linear-gradient(125deg, rgb(116, 111, 106) 10%, rgb(71, 82, 90) 90%); padding-bottom: 5%;    color: #ffffff;
+    border-style: none;
+    width: 60%;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 10%; 
+    margin-left: 19%;
+    display: none;
+}
+.box {
+    background-image: linear-gradient(125deg, rgb(68, 63, 58) 10%, rgb(50, 62, 71) 90%); padding-bottom: 5%;    border-style: none;
+    width: 100%;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 10%; 
+    border-radius: 3%;
+}
+#btn2 {
+    background-image: linear-gradient(125deg, rgb(97, 96, 96),rgb(117, 44, 44));
+    color: #ffffff;
+    border-style: none;
+    padding: 1%; 
+    width: 17%;
+    height: 10%;
+    font-family: 'Rajdhani';
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+/* PART 6 */
+.imgquote1{
+    margin-left: 15%;
+    width: 10%;
+}
+.imgquote2{
+    margin-left: 75%;
+    width: 10%;
+}
+.textquote1 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    text-align: center;
+}
+.phot1 {
+    display: none;
+    position: relative;
+}  
+.quote {
+    display: none;
+}
+
+/* FOOTER */
+.textfooter {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk'; 
+    font-size: 0.5rem;
+    text-decoration: none;
+}
+.logosfooter {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.log {
+    margin: 1%;
+}
